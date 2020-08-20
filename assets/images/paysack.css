@@ -1,0 +1,197 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  padding: 75px 0;
+}
+
+section {
+  padding: 60px 0;
+}
+
+footer{
+  background-color: #253f58 !important;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.navbar{
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.nav-link,
+.navbar-brand:hover{
+  color: #253f58 !important;
+}
+
+.btn-outline-secondary{
+  margin-bottom: 3px;
+  background-color: transparent !important;
+  border-color: #011627 !important;
+  color:  #011627 !important;
+  border-radius: 0;
+  position: relative;
+}
+.btn-outline-secondary:before{
+  content: '';
+  position: absolute;
+  background-color:  #7f9727;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  transition: 0.5s;
+  }
+.btn-outline-secondary:hover:before{
+  width: 100%
+}
+
+.btn-secondary{
+  margin-bottom: 3px;
+  background: #011627 !important;
+  border-radius: 0;
+  border-color: #011627;
+  position: relative;
+}
+.btn-secondary:hover{
+  color:#253f58;
+}
+
+.logo
+  {
+    height: 35px;
+    padding: 1px 0;
+  }
+
+.img-div{
+  padding: 15px 0;
+}
+.img-platform{
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  height: auto;
+}
+.img-solution {
+  width: 65px;
+  height: 65px;
+}
+
+.row-solution {
+  padding: 30px 0;
+}
+.row-home{
+  padding: 2px;
+}
+
+.man-holding {
+  width: 100px;
+  height: 100px;
+}
+.greenspan{
+color: #7f9727 !important;
+}
+.bluespan{
+color:  #253f58;
+}
+
+
+/*paysack-connect css*/
+.btn-outline-secondary-portfolio{
+  background-color: transparent !important;
+  border-color: #7f9727 !important;
+  color:  #7f9727 !important;
+  border-radius: 0;
+  position: relative;
+}
+.connect-flow{
+  padding: 0 0;
+}
+.img-connect-div{
+  padding: 15px 0;
+}
+
+.connect-image{
+  height:150px;
+  width: 150px;
+}
+.connect-imageapi{
+  height:120px;
+  width: 120px;
+}
+.connect-div{
+  padding: 45px;
+}
+.img-connect{
+  display: block;
+  margin:auto;
+
+   width: 380px;
+  height: 380px;
+}
+.connect-portfolio{
+  padding-top: 150px;
+  display: block;
+  margin: auto;
+  max-width: 55%;
+  height: auto;
+}
+
+.btn-arrow-right {
+   padding-left: 36px;
+}
+/*paysack-connect css*/
+/*paysack-account css*/
+
+
+.img-account{
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  height: auto;
+}
+/*paysack-account css*/
+/*paysack-walllet css*/
+
+
+.img-wallet{
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+}
+/*paysack-walllet css*/
+/*paysack-billerhub css*/
+
+.img-billerhub{
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  height: auto;
+}
+/*paysack-billerhub css*/
+/*paysack-issuing css*/
+.img-issuing{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+/*paysack-issuing css*/
+/*paysack-collect css*/
+.img-collect{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+/*paysack-collect css*/
+/*paysack-disburse css*/
+.img-disburse{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+/*paysack-disburse css*/
