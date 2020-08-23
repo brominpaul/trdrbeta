@@ -2,24 +2,6 @@
 <html lang="en"> 
 <head>
 	<title>trdr - simple stock investing</title>
-	<style>
-		.btn-nblue {
-  color: #fff !important;
-  text-decoration: none;
-  background: #21124f;
-  padding: 20px;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  transition: all 0.4s ease 0s;
-}
-@media all and (max-width: 30em) {
-   .btn-nblue {
-    display: block;
-    margin: 0.4em auto;
-  }
-}
-	</style>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -87,7 +69,7 @@
 	</section><!--//hero-section-->
 	<section>
 		<div class="container pt-5">
-			<div class="pt-5 d-flex justify-content-center">
+			<div class="pt-3 d-flex justify-content-center">
 			  <h3><b>Trdr is all-new approch to investing</b></h3>
 			</div>
 			<div class="pt-5 d-flex justify-content-center">
@@ -97,12 +79,71 @@
 			  <h4>every investor has the best possible experiance</h4>
 			</div>
 			<div class="pt-5 pb-5 d-flex justify-content-center  col-sm-12 col-md-12 col-lg-12">
-			  <button class="btn-nblue">Reserve your spot</button>
+			  <!-- <button class="btn-nblue">Reserve your spot</button> -->
+			  <a href="" class="btn-nblue mb-4" data-toggle="modal" data-target="#modalSubscriptionForm">Reserve your spot</a>
 			</div>
 		  </div>
 		  <!-- END OF section 2 -->
 	</section>
+	<!-- modal form -->
+	<div class="container my-4">
+
+
     
+		<div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+	  aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header text-center">
+			<h5 class="modal-title font-weight-bold">Request access</h4>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		<div class="modal-body mx-3">
+			<div class="row">
+				<div class="col-6">
+					<div class="row">
+						<div class="col-12"></div>
+							<div class="md-form mb-3">	
+							<input type="text" id="form3" class="modal-input validate" placeholder="Full name">
+						</div>
+					</div>
+						
+				
+					<div class="row">
+						<div class="col-12"></div>
+							<div class="md-form mb-3">	
+							<input type="text" id="form3" class="modal-input validate" placeholder="Email address">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12"></div>
+							<div class="md-form mb-3">	
+							<label>Reserve your spot now to get early access</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12"></div>
+							<div class="md-form mb-3">	
+							<button class="modal-btn">Request early access</button>
+						</div>
+					</div>
+				</div>
+				<div  class="modal-img col-6">
+					<img class="modal-img " src="assets/images/trdr-modal.png">
+				</div>
+			</div>	
+		</div>
+	
+		</div>
+		</div>
+	  </div>
+	</div>
+	
+	
+	  </div>
+    <!-- end of modal -->
    
     <footer class="footer theme-bg-primary">
 	    <div class="container py-5 mb-3">
