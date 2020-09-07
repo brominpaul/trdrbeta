@@ -1,230 +1,282 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
-	<title>trdr - simple stock investing</title>
-    
+    <title>trdr - simple stock investing</title>
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="India's first fully automated alrorithmic trading platform for retail investors">
-    <meta name="author" content="TRDR">    
-    <link rel="shortcut icon" href="favicon.png"> 
-    
+    <meta name="author" content="TRDR">
+    <link rel="shortcut icon" href="favicon.png">
+
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Nunito:400,600,700" rel="stylesheet">
-    
+
     <!-- FontAwesome JS-->
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-    
+
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/jquery-flipster/dist/jquery.flipster.min.css">
-    
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 
-</head> 
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/s.css">
+
+
+</head>
 
 <body>
-	
-   
+
+
     <header class="header">
-	    
+
         <div class="branding">
-            
+
             <div class="container position-relative">
 
-				<nav class="navbar navbar-expand-lg" >
-                    <h1 class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon" src="assets/images/trdr-logo.png" alt="logo"></a></h1>
-				</nav>
-				<!-- // <nav class="navbar navbar-expand-lg" >
-                    <h1 class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon" src="assets/images/trdr-logo.png" alt="logo"> <span class="logo-text">trdr</span></a></h1> -->				
-				<!-- // Free Version ONLY -->
-				<ul class="social-list list-inline mb-0 position-absolute">
-		            <li class="list-inline-item"><a class="text-dark" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
-	                <li class="list-inline-item"><a class="text-dark" href="https://www.facebook.com/trdr.club" target="_blank"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-	                <li class="list-inline-item"><a class="text-dark" href="https://www.linkedin.com/company/trdrhq" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a></li>
-	            </ul><!--//social-list-->
-	            
-            </div><!--//container-->
-            
-        </div><!--//branding-->
-        
-        
-    </header><!--//header-->
-    
-    
+                <nav class="navbar navbar-expand-lg">
+                    <h1 class="site-logo">
+                        <a class="navbar-brand" href="/"><img class="logo-icon" src="assets/images/trdr-logo.png" alt="logo"></a>
+                    </h1>
+                </nav>
+                <!-- // <nav class="navbar navbar-expand-lg" >
+                    <h1 class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon" src="assets/images/trdr-logo.png" alt="logo"> <span class="logo-text">trdr</span></a></h1> -->
+                <!-- // Free Version ONLY -->
+                <ul class="social-list list-inline mb-0 position-absolute">
+                    <li class="list-inline-item"><a class="text-dark" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a class="text-dark" href="https://www.facebook.com/trdr.club" target="_blank"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+                    <li class="list-inline-item"><a class="text-dark" href="https://www.linkedin.com/company/trdrhq" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a></li>
+                </ul>
+                <!--//social-list-->
+
+            </div>
+            <!--//container-->
+
+        </div>
+        <!--//branding-->
+
+
+    </header>
+    <!--//header-->
+
+
     <section class="hero-section">
-	    <div class="container">
-		    <div class="row figure-holder">
-			    <div class="col-12 col-md-6 pt-3 pt-md-4">
-				    <h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5" style="color: #526b84;">Simple stock investing.</h2>
-				    <div class="site-tagline mb-3">Trdr (read as trader), allows everyone to invest in stocks using our <b>Robo trdr</b>. India's first 100% automatic trading platform for retail investors.</div>
+        <div class="container pt-5">
+            <div class="row figure-holder">
+                <div class="col-12 col-md-6 pt-3 pt-md-4">
+                    <p class="header-subtitle mb-2">Simple stock investing</p>
 
-					<div class="site-tagline mb-2">Zero manual effort. Zero knowledge.</div>
-	
-	    </div>
-	</section><!--//hero-section-->
-	<section>
-		<div class="container pt-5">
-			<div class="pt-3 d-flex justify-content-center">
-			  <h3><b>Trdr is an all-new approach to investing</b></h3>
-			</div>
-			<div class="pt-5 d-flex justify-content-center">
-			  <h4>We're onboarding new customers one at a time to ensure</h4>
-			</div>
-			<div class="pt-0 d-flex justify-content-center">
-			  <h4>every investor has the best possible experience</h4>
-			</div>
-			<div class="pt-5 pb-5 d-flex justify-content-center  col-sm-12 col-md-12 col-lg-12">
-			  <!-- <button class="btn-nblue">Reserve your spot</button> -->
-			  <a href="" class="btn-nblue mb-4" data-toggle="modal" data-target="#modalSubscriptionForm">Reserve your spot</a>
-			</div>
-		  </div>
-		  <!-- END OF section 2 -->
-	</section>
-	<!-- modal form -->
-	<div class="container my-4">
+                    <p class="header-title-text">
+                        <b><span style="color: #21124f;">Trdr&nbsp; </span> </b>(read as trader), allows everyone to invest in stocks using our <b><span style="color: #21124f;">Robo trdr</span></b>
+                    </p>
+
+                    <div class="row ml-0 mb-2 mt-2">
+                        <div col-6>
+                            <p class="header-sub-boldtitle">Zero</p>
+                        </div>
+                        <div col-6>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;manual effort</p1>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;time investment</p1>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;coding</p1>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;human emotions</p1>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;human strategies</p1>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;human algorithms</p1>
+                            <p1 class="header-sub-title-semi mt-0">&nbsp;trading</p1>
+                        </div>
+                    </div>
+
+                    <p class="header-title-text">
+                        India's first 100% automatic trading platform for retail investors
+                    </p>
+
+                    <div>
+                        <form class="invitation-form flex flex-row rounded-lg p-2 bg-white border border-separator shadow mt-8 mb-4 invite-input">
+                            <input type="email" required="" class="required email bg-transparent focus:outline-none w-full flex-1 pl-4" placeholder="Enter your email for an invite" />
+                            <button type="submit" class="focus:outline-none active:opacity-75 ml-2" value="Subscribe" name="subscribe">
+                              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA4MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjUwIiByeD0iMjUiIGZpbGw9IiMyMTEyNGYiLz4KPHBhdGggZD0iTTQzIDM0TDUyIDI1SDI4TTQzIDE2TDQ4LjQgMjEuNCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=="
+                            alt="Next"/>
+                               </button>
+                        </form>
+                    </div>
+
+                </div>
+    </section>
+    <!--//hero-section-->
+    <!-- section 2 -->
+    <div class="container pt-5">
+        <div class="pt-5 d-flex justify-content-center">
+            <h3><b><span style="color: #000;">Trdr is an all-new approach to investing</span></b></h3>
+        </div>
+        <div class="pt-5 d-flex justify-content-center">
+            <h5>We're onboarding new customers one at a time to ensure every investor has the best possible experience</h5>
+        </div>
+        <!-- Reserve your spot -->
+
+        <div class="pt-5 pb-5 d-flex justify-content-center  col-sm-12 col-md-12 col-lg-12">
+            <button class="btn-nblue mb-4" data-toggle="modal" data-target="#modalSubscriptionForm">Reserve your spot</button>
+        </div>
+
+    </div>
+    <!-- END OF section 2 -->
+    <!-- modal form -->
+    <div class="container my-4">
 
 
-    
-		<div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-	  aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-		  <div class="modal-header text-center">
-			<h5 class="modal-title font-weight-bold">Request access</h4>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+        <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title font-weight-bold">Request access</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			  <span aria-hidden="true">&times;</span>
 			</button>
-		  </div>
-		<div class="modal-body mx-3">
-			<div class="row">
-				<div class="col-6">
-					<div class="row">
-						<div class="col-12"></div>
-							<div class="md-form mb-3">	
-							<input type="text" id="form3" class="modal-input validate" placeholder="Full name">
-						</div>
-					</div>
-						
-				
-					<div class="row">
-						<div class="col-12"></div>
-							<div class="md-form mb-3">	
-							<input type="text" id="form3" class="modal-input validate" placeholder="Email address">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12"></div>
-							<div class="md-form mb-3" style="color: #526b84;">	
-							<label style="color: #526b84;" >Reserve your spot now to get early access</label>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12"></div>
-							<div class="md-form mb-3">	
-							<button class="modal-btn">Request early access</button>
-						</div>
-					</div>
-				</div>
-				<div  class="modal-img col-6">
-					<img class="modal-img " src="assets/images/trdr-modal.png">
-				</div>
-			</div>	
-		</div>
-	
-		</div>
-		</div>
-	  </div>
-	</div>
-	
-	
-	  </div>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col-12"></div>
+                                    <div class="md-form mb-3">
+                                        <input type="text" id="form3" class="modal-input validate" placeholder="Full name">
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-12"></div>
+                                    <div class="md-form mb-3">
+                                        <input type="text" id="form3" class="modal-input validate" placeholder="Email address">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12"></div>
+                                    <div class="md-form mb-3" style="color: #526b84;">
+                                        <label style="color: #526b84;">Reserve your spot now to get early access</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12"></div>
+                                    <div class="md-form mb-3">
+                                        <button class="modal-btn">Request early access</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-img col-6">
+                                <img class="modal-img " src="assets/images/trdr-modal.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
     <!-- end of modal -->
-   
+
     <footer class="footer theme-bg-primary">
-	    <div class="container py-5 mb-3">
-		    <div class="row">
-			    <div class="footer-col col-6 col-lg-3">
-				    <h4 class="col-heading">About Trdr</h4>
-				    <ul class="list-unstyled">
-					    <li><a href="#">Our Story</a></li>
-					    <li><a href="#">Pricing</a></li>
-					    <li><a href="#">Contact</a></li>
-					    <li><a href="#">Jobs</a></li>
-					    
-				    </ul>
-			    </div><!--//footer-col-->
-			    <div class="footer-col col-6 col-lg-3">
-				    <h4 class="col-heading">Resources</h4>
-				    <ul class="list-unstyled">
-					    <li><a href="#">FAQs</a></li>
-					    <li><a href="#">Blog</a></li>
-					    <li><a href="#">Support</a></li>
-					    <li><a href="#">Developer APIs</a></li>
-				    </ul>
-			    </div><!--//footer-col-->
-			    <div class="footer-col col-6 col-lg-3">
-				    <h4 class="col-heading">Legal</h4>
-				    <ul class="list-unstyled">
-					    <li><a href="#">Privacy</a></li>
-					    <li><a href="#">Terms of Services</a></li>
-					    <li><a href="#">Security</a></li>
-				    </ul>
-			    </div><!--//footer-col-->
-			    <div class="footer-col col-6 col-lg-3">
-				    <h4 class="col-heading">Stay Connected</h4>
-				    <ul class="social-list list-unstyled mb-0">
-					    <li class="list-inline-item"><a href="https://www.linkedin.com/company/trdrhq" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="https://www.facebook.com/trdr.club" target="_blank"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-		                
-		            </ul><!--//social-list-->
-		            
-		            <div class="mb-2">
-			            TRDR<br>
-			            Kochi <br>
-			            Kerala, India
-		            </div>
-		            <div>
-			            <a href="#">hello@trdr.money</a>
-			        </div>
-		            
-			    </div><!--//footer-col-->
-		    </div><!--//row-->
-		</div><!--//container-->
-		
-		
+        <div class="container py-5 mb-3">
+            <div class="row">
+                <div class="footer-col col-6 col-lg-3">
+                    <h4 class="col-heading">About Trdr</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Jobs</a></li>
 
-	    <div class="container">
-		    <hr>
-	    </div>
-	    <div class="download-area py-4">
-		    <div class="container text-center">
-			    <h3 class="mb-3">Get the app</h3>
-		    <div class="section-intro mb-4 single-col-max-width mx-auto">Coming soon.</div>
-			    <ul class="app-stores list-unstyled list-inline mx-auto  d-inline-block">
-				    <li class="list-inline-item mr-3"><a href="#"><img class="ios" src="assets/images/appstore-apple.svg" alt="app-store"></a></li>
-				    <li class="list-inline-item"><a href="#"><img class="android" src="assets/images/appstore-android.svg" alt="google play"></a></li>
-			    </ul>
-		    </div><!--//container-->
-	    </div><!--//download-area-->
+                    </ul>
+                </div>
+                <!--//footer-col-->
+                <div class="footer-col col-6 col-lg-3">
+                    <h4 class="col-heading">Resources</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Developer APIs</a></li>
+                    </ul>
+                </div>
+                <!--//footer-col-->
+                <div class="footer-col col-6 col-lg-3">
+                    <h4 class="col-heading">Legal</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <!--//footer-col-->
+                <div class="footer-col col-6 col-lg-3">
+                    <h4 class="col-heading">Stay Connected</h4>
+                    <ul class="social-list list-unstyled mb-0">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/company/trdrhq" target="_blank">
+                                <i class="fab fa-linkedin fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/TRDR_club" target="_blank">
+                                <i class="fab fa-twitter fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/trdr.club" target="_blank">
+                                <i class="fab fa-facebook-f fa-fw"></i>
+                            </a>
+                        </li>
 
-		
+
+                    </ul>
+                    <!--//social-list-->
+
+                    <div class="mb-2 footer-color">
+                        TRDR<br> Kochi <br> Kerala, India
+                    </div>
+                    <div>
+                        <a href="#">care@trdr.money</a>
+                    </div>
+
+                </div>
+                <!--//footer-col-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+
     </footer>
 
-    <!-- Javascript -->          
+    <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-    
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
     <!-- Page Specific JS -->
-    <script type="text/javascript" src="assets/plugins/jquery-flipster/dist/jquery.flipster.min.js"></script> 
-    <script type="text/javascript" src="assets/js/flipster-custom.js"></script> 
+    <script type="text/javascript" src="assets/plugins/jquery-flipster/dist/jquery.flipster.min.js"></script>
+    <script type="text/javascript" src="assets/js/flipster-custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            var i = 0;
+            setInterval(function() {
+                $("p1").css("opacity", "0");
+                $("p1:eq(" + i + ")").css("opacity", "1");
+                console.log("interval" + i);
+                if (i == 6) {
+                    i = 0;
+                } else {
+                    i++;
+                }
+            }, 2000);
+        });
+    </script>
 
 
 </body>
-</html> 
 
+</html>
